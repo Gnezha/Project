@@ -1,0 +1,416 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box
+}
+
+.music{
+  display: none;
+}
+.header {
+    width: 100%;
+    height: 80px;
+    display: block;
+    background-color: black;
+}
+
+.image {
+    height: 40px;
+    width: 40px;
+}
+
+.inner_header {
+    width: 1000px;
+    height: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+.logo_cont {
+    height: 100;
+    display: table;
+    float: left;
+}
+
+.logo_cont h1 {
+    color: white;
+    height: 100%;
+    display: table-cell;
+    padding-top: 20px;
+    font-family: 'Montserrat';
+    font-size: 32px;
+    font-weight: 200;
+}
+
+.logo_cont h1 span {
+    font-weight: 800;
+}
+
+.MENU {
+    float: right;
+    height: 100%;
+}
+
+.MENU a {
+    height: 100%;
+    display: table;
+    padding: 0px 20px;
+    float: left;
+}
+
+.MENU a li {
+    display: table-cell;
+    vertical-align: middle;
+    height: 100%;
+    color: white;
+    font-family: 'Montserrat';
+    font-size: 16px;
+}
+
+.intro {
+    text-align: center;
+    padding-top: 80px;
+    text-shadow: 2px 2px 5px lightgrey;
+}
+
+* {
+    box-sizing: border-box
+}
+
+.award{
+  font-size:100px;
+  background-image: linear-gradient(to left, grey , lightgrey , black);   
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+/* Slideshow container */
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+  }
+  
+  /* Hide the images by default */
+  .mySlides {
+    display: none;
+  }
+  
+  /* Next & previous buttons */
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+  
+  /* Caption text */
+  .text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  
+  /* The dots/bullets/indicators */
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .active, .dot:hover {
+    background-color: #717171;
+  }
+  
+  .animate-right{
+    position:relative;
+    animation:animateright 0.4s}
+
+    @keyframes .animate-right
+    {from{right:-300px;opacity:0} 
+    to{right:0;opacity:1}}
+
+
+
+
+.Font {
+    font-family: Montserrat;
+    text-align: center;
+    font-size: 40px;
+    color: rgb(36, 36, 36);
+}
+
+
+/*produkt slider*/
+
+.Produkte {
+    padding: 30px 0;
+}
+
+.Produkte-trend {
+    margin: 30px 0;
+}
+
+.title-style h1 {
+    padding: 40px 0;
+}
+
+.title-style {
+    margin: 0 auto 80px;
+    height: 100px;
+    width: 80%;
+    max-width: 750px;
+    background: white;
+    position: relative;
+    box-shadow: 0 4px 5px 0 rgba(0, 0, 50, 0);
+}
+.title-style::after{
+    content: '';
+    height: 100px;
+    width: 200px; 
+    background-color: #74bbfd;
+    position:absolute;
+    top: -10px;
+    left: -10px;
+    z-index: -1;
+   }
+  .title-style::before{
+    content: '';
+    height: 109px;
+    width: 200px; 
+    background-color: #f73fde;
+    position:absolute;
+    bottom: : -10px;
+    right: -10px;
+    z-index: -1;
+   }
+  
+  .trending-img{
+    position: relative;
+    margin-bottom: 15px;
+  }
+  .trending-img img{
+    width: 100%;
+  }
+  .btn-buy {
+    width: 150px;
+    padding: 10px 0;
+    outline: none !important;
+    border: 0;
+    border-radius: 2px;
+    position:absolute;
+    background:#fff;
+    left: 50%;
+    bottom: 0;
+    transform: translate(-50%,0);
+    transition: .6s;
+    opacity: 0;
+    z-index: 1;
+  }
+  .trending-img:hover .btn-buy{
+    transform: translate(-50%,50%);
+    bottom: 50%;
+    opacity: 1;
+  }
+  .overlay{
+    height: 0;
+    width: 100%;
+    background: #333;
+    position: absolute;
+    top: 0;
+    opacity: 0;
+    transition: .5s;  
+  }
+  .trending-img:hover .overlay{
+    opacity: .5;
+    height: 100%;
+    
+  }
+video{
+  width: 70%;
+}
+
+.paragraph{ 
+ 
+  width: 700px;
+  position: static;
+  padding: 10px;
+  border: 5px solid grey;
+ }
+ 
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+   
+}
+th{
+  background: black;
+  color: white;
+  font-family: "Montserrat";
+  
+}
+th, td {
+  padding: 15px;
+  text-align: left;
+  
+  
+}
+#t01 {
+  width: 100%;    
+  background-color: lightgrey;
+}
+
+/*Converter*/
+.convert {
+  font-size: 20px;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  border: 5px solid grey;
+  margin: 80px;
+}
+/* Footer */
+/* Style all font awesome icons */
+.fa {
+  padding: 6px;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Facebook */
+.fa-facebook {
+  
+  color: white;
+}
+.fa-instagram {
+  
+  color: white;
+}
+.fa-youtube {
+  
+  color: white;
+}
+/* Twitter */
+.fa-twitter {
+  
+  color: white;
+}
+.footer{
+    background: black;
+    color: white;
+    height: 400px;
+    position: relative;
+  }
+.footer .footer-content{
+    
+    height: 350px;
+    display: flex;
+}
+.footer .footer-content .footer-section{
+    flex:1;
+    padding: 25px;
+    
+}
+.footer .footer-content h1,
+.footer .footer-content h2{
+
+    color: white;
+    font-family: 'Montserrat';
+    font-size: 40px;
+    font-weight: 200;
+
+}
+.footer .footer-content .about h1 span{
+ font-weight: 800;
+}
+.footer .footer-content .about .contact span{
+display: block;
+font-size: 1.1em;
+margin-bottom: 8px;
+}
+.footer .footer-content .about .socials a{
+    border: 1px solid gray;
+    width: 45px;
+    height: 41px;
+    padding-top: 5px;
+    margin-right: 5px;
+    text-align: center;
+    display: inline-block;
+    font-size: 1.3em;
+    border-radius: 5px;
+    transition: all .3s;
+}
+.footer .footer-content .about .socials a:hover{
+    border: 1px solid white;
+    color: white;
+    transition: all .3s;
+}
+
+.footer .footer-content .contact-form .contact-input{
+    background: #272727;
+    color: #bebdbd;
+    margin-bottom: 20px;
+    line-height: 2rem;
+    padding: .9rem 9rem;
+    border:none;
+
+}
+
+}
+.footer .footer-content .contact-form .contact-input:focus {
+ background: #e6e6e6;
+
+}
+.footer .footer-content .contact-form .contact-btn {
+    line-height: 1.2em;
+    color:black;
+    padding-right: .4em;
+
+}
+
+.footer .footer-bottom{
+ 
+    background: #1a1a1a;
+    color: white;
+    height: 50px;
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    bottom:0px;
+    left:0px;
+    padding-top: 12px;
+    width: 100%;
+  }
+
+  
